@@ -1,0 +1,26 @@
+*{
+    width: 300px;
+    
+}
+#a{
+    width: 30px;
+    height: 25px;
+    background-color: blueviolet;
+}
+#b{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
+#c{
+    text-align: right;
+}
+#d{
+    text-align: right;
+}
+#message{
+    height: 30px;
+}
+body{
+    align-items: center;
+}
