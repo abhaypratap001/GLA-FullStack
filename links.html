@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+           position: relative;
+           align-items: center;
+           flex-direction: column;
+           display: flex;
+            background-color: black;
+            width: 100vw;
+            height: 100vw;
+            cursor:url('./rocket.png');
+        }
+        .h{
+            
+            text-align: center;
+            color:aqua;
+            background-color: black;
+        }
+        .p{
+            
+            text-align: center;
+            color: bisque;
+            background-color: black;
+        }
+        .s{
+            height: 100px;
+            width: 100px;
+            box-shadow: .5px .5ps 10px rgb(152,151,151);
+            border-radius: 10%;
+            background-image: linear-gradient(52deg,#13eacc,#31d254);
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .l{
+            text-align: center;
+            color: black;
+            background-color: white;
+            margin-top: 50px;
+            border-radius: 500px;
+        }
+        .b{
+            margin-top:50px;
+        }
+        
+        .b button{
+           
+            text-align: center;
+        }
+        .btn{
+            position:relative;
+            font-family: "Baloo Bhai 2", sans-serif;
+            border-radius: 500px;
+        }
+        .btn:hover{
+            color:bisque;
+            background-color: rgb(12,105,92);
+        }
+    </style>
+</head>
+<body>
+  <div class="a">
+    <div class="h">
+        <h1>Color Code</h1>
+    </div>
+    <div class="p">
+        <p>Click on the buttons to get color</p>
+    </div>
+    <div class="s">
+
+    </div>
+    <div class="l">
+        <p>linear-gradient(52deg,#13eacc,#31d254)</p>
+    </div>
+    <div class="b">
+        <button class="btn">Hex Color</button> <button class="btn">Rgb Color</button> <button class="btn">HSL Color</button> <button class="btn">HSLA Color</button> <button class="btn">Color Name</button> <button class="btn">Gradient</button>
+    </div>
+  </div>
+</body>
+</html>
